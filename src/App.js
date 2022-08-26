@@ -1,7 +1,8 @@
 import "./App.css";
-import UseEffect from "./components/useEffect/UseEffect";
+// import UseEffect from "./components/useEffect/UseEffect";
 // import UseState from "./components/useState/UseState";
-import Memoize from "./components/Memorize/Memoize";
+// import Memoize from "./components/Memorize/Memoize";
+import UseRef from "./components/useRef/UseRef";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <h1>Learning Hooks</h1>
       {/* <UseState /> */}
       {/* <UseEffect /> */}
-      <Memoize />
+      {/* <Memoize /> */}
+      <UseRef />
     </div>
   );
 }
