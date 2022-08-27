@@ -2,7 +2,8 @@ import "./App.css";
 // import UseEffect from "./components/useEffect/UseEffect";
 // import UseState from "./components/useState/UseState";
 // import Memoize from "./components/Memorize/Memoize";
-import UseRef from "./components/useRef/UseRef";
+// import UseRef from "./components/useRef/UseRef";
+import UseReducer from "./components/useReducer/UseReducer";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <UseState /> */}
       {/* <UseEffect /> */}
       {/* <Memoize /> */}
-      <UseRef />
+      {/* <UseRef /> */}
+      <UseReducer />
     </div>
   );
 }
